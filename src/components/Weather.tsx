@@ -9,7 +9,7 @@ interface WeatherProps {
 
 const Weather: FC<WeatherProps> = ({ data }) => {
   const fahrenheit = (data.main.temp * 1.8 - 459.67).toFixed(2);
-  const celsius = (data.main.temp - 273.15).toFixed(2);
+  const celsius = (data.main.temp - 273.15)
   const celsiusFeels = (data.main.feels_like - 273.15).toFixed(2);
 
   return (
@@ -30,7 +30,7 @@ const Weather: FC<WeatherProps> = ({ data }) => {
       
         <img
           className="mt-5"
-          src={`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`}
+          src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png`}
           alt=""
           style={{ width: "200px" }}
         />

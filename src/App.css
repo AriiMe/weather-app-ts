@@ -30,12 +30,12 @@
 .clol{
     position: absolute;
     right: 145vh;
-    top: 53vh;
+    top: 50vh;
     width:450px;
     
 }
 .clolText{
-    font-size: 130px !important;
+    font-size: 200px !important;
     color: rgba(255, 255, 255, 0.685);
 }
 #imagelol{
