@@ -58,7 +58,7 @@ const Weather: FC<WeatherProps> = ({ data }) => {
                 <td>
                   <img
                     className="mt-5"
-                    src={`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`}
+                    src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png`}
                     alt=""
                     style={{ width: "150px" }}
                   />
