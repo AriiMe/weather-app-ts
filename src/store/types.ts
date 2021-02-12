@@ -47,6 +47,15 @@ export interface WeatherData {
     speed: number;
     deg: number;
   };
+  temp: {
+    day: number;
+    eve: number;
+    max: number;
+    min: number;
+    morn: number;
+    night: number;
+  };
+  
 }
 
 export interface WeatherForecast{
@@ -85,6 +94,23 @@ export interface WeatherForecast{
     deg: number;
   };
 }
+export interface dailyStructure {
+  index: number;
+  clouds: number;
+  dt: number;
+  humidity: number;
+  sunrise: number;
+  sunset: number;
+  wind_deg: number;
+  wind_speed: number;
+  weather: {
+    description: string;
+    main: string;
+    icon: string;
+  }[];
+  
+}
+
 
 export interface WeatherError{
     cod: string;

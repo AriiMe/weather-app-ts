@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { FC } from "react";
-import { WeatherData } from "../store/types";
+import { WeatherData, dailyStructure } from "../store/types";
 import { Container, Row, Col, Table } from "react-bootstrap";
 interface WeatherProps {
   data: WeatherData;
@@ -41,6 +41,7 @@ const Weather: FC<WeatherProps> = ({ data }) => {
           <p className="title countryText">{data.name}</p>
         </p>
       </div>
+      
 
       <Row>
         <Col id="table" className="title has-text-centered">
