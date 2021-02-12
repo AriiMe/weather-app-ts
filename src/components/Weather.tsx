@@ -9,8 +9,8 @@ interface WeatherProps {
 
 const Weather: FC<WeatherProps> = ({ data }) => {
   const fahrenheit = (data.main.temp * 1.8 - 459.67).toFixed(2);
-  const celsius = (data.main.temp - 273.15)
-  const celsiusFeels = (data.main.feels_like - 273.15).toFixed(2);
+  const celsius = (data.main.temp - 273.15).toFixed(1);
+  const celsiusFeels = (data.main.feels_like - 273.15).toFixed(1);
 
   return (
     <Container>
