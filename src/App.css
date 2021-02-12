@@ -30,12 +30,12 @@
 .clol{
     position: absolute;
     right: 145vh;
-    top: 50vh;
+    top: 53vh;
     width:450px;
     
 }
 .clolText{
-    font-size: 200px !important;
+    font-size: 154px !important;
     color: rgba(255, 255, 255, 0.685);
 }
 #imagelol{
@@ -61,11 +61,11 @@
 
 #info{
     position: absolute;
-    right: 103vh;
+    right: 90vh;
     top: 49vh;
-    width:500px;
+    width:700px;
 }
 .infoText{
-    font-size: 60px !important;
+    font-size: 40px !important;
     color: rgba(255, 255, 255, 0.685);
 }
